@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+.photo {
+    width: 90%;
+    max-width: 300px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* Vertical Instagram Story Video Style */
+.video-container {
+    width: 90%;
+    max-width: 320px;      /* keeps it phone-sized */
+    margin: 20px auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 16;  /* forces vertical shape */
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    object-fit: cover;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e91e63;
+}

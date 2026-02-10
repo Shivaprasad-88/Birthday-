@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Surprise 🎉</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎊 Surprise Anjali! 🎊</h1>
+<h2>🎥 A Special Video For You 💖</h2>
+
+<video width="90%" controls>
+    <source src="videos/video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+        <p class="surprise-box">
+            You will always be my favorite person  💕<br>
+            I am blessed to have a sister like you 💖
+        </p>
+
+        <a href="index.html" class="btn">Back Home 💝</a>
+    </div>
+</body>
+<script>
+var password = prompt("Enter the secret code to see the birthday surprise 💖");
+if(password !== "anjali2005") {
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:50px;'>Access Denied ❌</h2>";
+}
+</script>
+</html>
